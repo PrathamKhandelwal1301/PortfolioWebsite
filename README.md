@@ -1,5 +1,4 @@
 Personal portfolio website
-...........................................................
 
 Frameworks/ Libraries used :
 
