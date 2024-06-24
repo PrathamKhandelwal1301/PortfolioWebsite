@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+
+body {
+	height: 100vh;
+}
+
+#root {
+	height: 100vh;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
