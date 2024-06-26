@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Homepage/Hero/Hero';
-import Socials from '../components/Navbar/Socials';
+import Socials from '../components/Homepage/Socials';
 
 export default function Homepage() {
 	return (

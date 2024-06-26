@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 
-import SvgI from '../Homepage/svg/Svg-I';
-import SvgT from '../Homepage/svg/Svg-T';
-import SvgG from '../Homepage/svg/Svg-G';
-import SvgL from '../Homepage/svg/Svg-L';
-import SvgIn from '../Homepage/svg/Svg-In';
+import SvgI from './svg/Svg-I';
+import SvgT from './svg/Svg-T';
+import SvgG from './svg/Svg-G';
+import SvgL from './svg/Svg-L';
+import SvgIn from './svg/Svg-In';
 
 export default function Socials() {
 	return (
