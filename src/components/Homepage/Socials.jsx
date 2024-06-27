@@ -8,7 +8,7 @@ import SvgIn from './svg/Svg-In';
 
 export default function Socials() {
 	return (
-		<div className="w-100 h-[5vh] bg-green-300 flex justify-center items-center space-x-7">
+		<div className="w-100 h-[5vh] bg-green-400 flex justify-center items-center space-x-7">
 			<Link
 				to="https://www.instagram.com/_.pratham1301._/"
 				target="_blank"

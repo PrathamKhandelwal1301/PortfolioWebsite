@@ -6,7 +6,7 @@ export default function HeroText() {
 			</h1>
 			<h1
 				animate={{ y: 0 }}
-				className="text-green-300 font-teko text-9xl font-bold w-[40%] tracking-wide drop-shadow-lg">
+				className="text-green-400 font-teko text-9xl font-bold w-[40%] tracking-wide drop-shadow-lg">
 				Pratham Khandelwal.
 			</h1>
 			<hr className="border-dashed border-black w-[91%]" />
