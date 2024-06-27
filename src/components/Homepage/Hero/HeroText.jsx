@@ -1,7 +1,7 @@
 export default function HeroText() {
 	return (
 		<div className="flex flex-col justify-center">
-			<h1 className="font-teko text-9xl font-bold w-[40%] tracking-wide drop-shadow-xl">
+			<h1 className="font-teko text-8xl font-bold w-[40%] tracking-wide drop-shadow-xl">
 				I'm <br />
 			</h1>
 			<h1
