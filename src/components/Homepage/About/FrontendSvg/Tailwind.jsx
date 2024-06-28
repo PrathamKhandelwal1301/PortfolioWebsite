@@ -2,13 +2,13 @@ import { Tooltip } from '@mui/material';
 
 export default function Tailwind() {
 	return (
-		<Tooltip
-			title={'TailwindCSS'}
-			arrow={true}
-			placement={'top'}
-			leaveDelay={100}
-			enterDelay={100}>
-			<div className="flex justify-center col-span-4">
+		<div className="flex justify-center col-span-4">
+			<Tooltip
+				title={'TailwindCSS'}
+				arrow={true}
+				placement={'top'}
+				leaveDelay={100}
+				enterDelay={100}>
 				<svg xmlns="http://www.w3.org/2000/svg" width="64" height="60">
 					<defs>
 						<linearGradient
@@ -28,7 +28,7 @@ export default function Tailwind() {
 						fillRule="evenodd"
 					/>
 				</svg>
-			</div>
-		</Tooltip>
+			</Tooltip>
+		</div>
 	);
 }

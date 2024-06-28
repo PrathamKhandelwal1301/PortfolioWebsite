@@ -7,7 +7,7 @@ export default function NavItems() {
 			<div className="flex justify-end w-[100%] items-center space-x-12">
 				<NavItem to={'about'}>About</NavItem>
 				<NavItem to={'projects'}>Projects</NavItem>
-				<BlogButton />
+				<BlogButton to={'/blogs'}>Blogs</BlogButton>
 			</div>
 		</>
 	);

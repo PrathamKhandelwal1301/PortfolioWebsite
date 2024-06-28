@@ -2,13 +2,13 @@ import { Tooltip } from '@mui/material';
 
 export default function Redux() {
 	return (
-		<Tooltip
-			title={'Redux'}
-			arrow={true}
-			placement={'top'}
-			leaveDelay={100}
-			enterDelay={100}>
-			<div className="flex justify-center col-span-4">
+		<div className="flex justify-center col-span-4">
+			<Tooltip
+				title={'Redux'}
+				arrow={true}
+				placement={'top'}
+				leaveDelay={100}
+				enterDelay={100}>
 				<div className="flex justify-center">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ export default function Redux() {
 						<path d="M7.647 15.975c.023.71.626 1.302 1.35 1.302h.048a1.334 1.334 0 0 0 1.302-1.397c0-.71-.616-1.301-1.338-1.301h-.048c-.048 0-.118 0-.178.022-.982-1.657-1.397-3.434-1.242-5.349.094-1.445.567-2.7 1.42-3.742.71-.888 2.048-1.326 2.96-1.35 2.556-.048 3.622 3.138 3.704 4.404l1.184.354C16.536 5.036 14.122 3 11.813 3 9.647 3 7.647 4.574 6.842 6.884c-1.102 3.077-.379 6.036.971 8.404-.118.154-.189.426-.166.687z"></path>
 					</svg>
 				</div>
-			</div>
-		</Tooltip>
+			</Tooltip>
+		</div>
 	);
 }
